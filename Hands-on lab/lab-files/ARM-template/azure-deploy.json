@@ -462,12 +462,12 @@
           "connectionStrings": [
             {
               "name": "TailspinToysContext",
-              "connectionString": "[concat('Server=tcp:your-sqldest-host-fqdn-value,1433;Database=TailspinToys;User ID=',parameters('adminUsername'),';Password=Password.1234567890;Trusted_Connection=False;Encrypt=True;TrustServerCertificate=True;']",
+              "connectionString": "[concat('Server=tcp:your-sqldest-host-fqdn-value,1433;Database=TailspinToys;User ID=',parameters('adminUsername'),';Password=Password.1234567890;Trusted_Connection=False;Encrypt=True;TrustServerCertificate=True;')]",
               "type": "SQLAzure"
             },
             {
               "name": "TailSpinToysReadOnlyContext",
-              "connectionString": "[concat('Server=tcp:your-sqldest-host-fqdn-value,1433;Database=TailspinToys;User ID=',parameters('adminUsername'),';Password=Password.1234567890;Trusted_Connection=False;Encrypt=True;TrustServerCertificate=True;']",
+              "connectionString": "[concat('Server=tcp:your-sqldest-host-fqdn-value,1433;Database=TailspinToys;User ID=',parameters('adminUsername'),';Password=Password.1234567890;Trusted_Connection=False;Encrypt=True;TrustServerCertificate=True;')]",
               "type": "SQLAzure"
             }
           ],
