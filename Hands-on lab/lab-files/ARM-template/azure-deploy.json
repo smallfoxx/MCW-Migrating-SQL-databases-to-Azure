@@ -73,8 +73,7 @@
     "appServicePlanName": "[concat(resourceGroup().name, '-asp')]",
     "webAppName": "[concat('tailspintoys', uniqueString(resourceGroup().id))]",
     "dmsName": "tailspin-dms",
-    "sqlDestDataDisks": {
-      "value": [
+    "sqlDestDataDisks": [
         {
           "lun": 0,
           "createOption": "empty",
@@ -86,7 +85,6 @@
           "diskSizeGB": 1023
         }
       ]
-    }
 
   },
   "resources": [
